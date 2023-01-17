@@ -51,7 +51,7 @@ namespace SeleniumTests
             driver.FindElement(locators.signIn2Button).Click();
             wait.Until(ExpectedConditions.ElementToBeClickable(locators.signInNameField));
             driver.FindElement(locators.signInNameField).Click();
-            driver.FindElement(locators.signInNameField).SendKeys("netko123123822");
+            driver.FindElement(locators.signInNameField).SendKeys("netko1231238222");
             driver.FindElement(locators.signInPasswordField).Click();
             driver.FindElement(locators.signInPasswordField).SendKeys("123123");
             driver.FindElement(locators.signInSubmitButton).Click();
